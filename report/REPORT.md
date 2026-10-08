@@ -7,7 +7,7 @@
 - **MSSV:** 2A202602364
 - **Lớp:** AI20K-T4
 - **Link repo:** https://github.com/n4hhh/K4-Track4-Day06-3D-From-Point-Clouds
-- **Topic:** [ĐIỀN một chữ cái A/B/C/D/E/F] — [ĐIỀN tên topic]
+- **Topic:** A — LiDAR-camera Calibration QA
 - **Dataset:** [ĐIỀN một hoặc nhiều trong: data/synthetic, data/kitti_mini, data/nuscenes_mini_subset, log riêng]
 - **Các frame đã dùng:** [ĐIỀN danh sách frame id, ví dụ 000011, 000049 hoặc scene-0103_010]
 
@@ -15,9 +15,7 @@
 
 ## 1. Claim
 
-Một câu khẳng định kỹ thuật có thể kiểm chứng. Ví dụ: *"Lệch yaw 1° làm 12% điểm LiDAR rơi ra khỏi vật thể ở 30 m, phát hiện được bằng edge-alignment score với ngưỡng X."*
-
-[ĐIỀN]
+Khi yaw calibration lệch 1°, tỉ lệ điểm LiDAR thuộc vật thể vẫn nằm đúng trong 2D bounding box giảm ít nhất 15 điểm phần trăm ở frame 000011, trong khi frame 000008 giảm dưới 5 điểm phần trăm.
 
 ## 2. Evidence
 
